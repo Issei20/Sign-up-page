@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@font-face {
+    font-family: "norse bold";
+    src: url("./Norse-Bold.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.leftContainer {
+    display: flex;
+    height: 100vh;
+    width: 30vw;
+    flex-wrap: wrap;
+    min-width: 300px;
+
+}
+
+.bg-odin {
+    min-width: 300px;
+    width: 100%;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 70vw;
+    min-width: 600px;
+}
+
+.signUp-intro {
+    min-width: 300px;
+    width: 80%;
+    position: relative;
+    top: 20vh;
+    margin-left: 3vw;
+    font-size: 1.5rem;
+}
+
+.signUp-intro-two {
+    min-width: 300px;
+    width: 100%;
+    margin-bottom: 30vh;
+    position: relative;
+    top: 20vh;
+    margin-left: 3vw;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.formOdin {
+    box-shadow: inset;
+    height: 30vh;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: -1px 8px 24px -11px rgba(0,0,0,0.67);
+}
+
+.formSign-up {
+    min-width: 300px;
+    width: 100%;
+    display: flex;
+    gap: 120px;
+    background-color: #fff;
+}
+
+label {
+    margin-bottom: -10px;
+    background-color: #fff;
+}
+
+.inputContainer {
+    background-color: #fff;
+    display: flex;
+    gap: 10px;
+    width: 10vw;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 2vw;
+    
+}
+
+legend {
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-left: 2.5vw;
+    background-color: #fff;
+}
+
+input {
+    padding: 2px;
+    height: 2.5vh;
+    width: 13vw;
+    border: 0.1rem solid;
+    border-color: rgb(218, 218, 218);
+    border-radius: 3px;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.accountContainer {
+    position: relative;
+    top: 30px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.logo-odin {
+    position: relative;
+    height: 20vh;
+    width: 7vw;
+}
+
+button {
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.2rem;
+    margin-left: 3.5vw;
+    margin-bottom: 2vh;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -9px 0px 53px -14px rgba(0,0,0,0.62);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d4b31;;
+}
+
+.login {
+    margin-left: 3.5vw;
+}
+
+.logo-text {
+    color: white;
+    font-size: 5rem;
+    font-family: "norse bold";
+}
+
+.logoContainer {
+    width: 30vw;
+    top: 15vh;
+    height: 22vh;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.623);
+
+}
+
+.loginSpan {
+    font-weight: bold;
+    color: #596D48;
+    cursor: pointer;
+}
